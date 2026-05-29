@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeltixPSN — Пополнение PSN, Steam, Xbox</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0f0f1a; color: #fff; font-family: 'Segoe UI', sans-serif; }
+
+    header {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #2a2a4a;
+    }
+    header h1 { font-size: 24px; color: #7b7bff; letter-spacing: 1px; }
+    header span { font-size: 13px; color: #aaa; }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #16213e 0%, #0f0f1a 100%);
+    }
+    .hero h2 { font-size: 36px; margin-bottom: 12px; }
+    .hero h2 span { color: #7b7bff; }
+    .hero p { font-size: 17px; color: #bbb; margin-bottom: 30px; }
+    .hero a {
+      display: inline-block;
+      background: #7b7bff;
+      color: #fff;
+      padding: 14px 36px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .hero a:hover { background: #5a5aee; }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .feature {
+      background: #1a1a2e;
+      border: 1px solid #2a2a4a;
+      border-radius: 16px;
+      padding: 24px;
+      width: 260px;
+      text-align: center;
+    }
+    .feature .icon { font-size: 36px; margin-bottom: 12px; }
+    .feature h3 { font-size: 16px; margin-bottom: 8px; }
+    .feature p { font-size: 13px; color: #999; }
+
+    .prices {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px 20px 40px;
+    }
+    .prices h2 { text-align: center; font-size: 24px; margin-bottom: 24px; color: #7b7bff; }
+    .price-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .price-item {
+      background: #1a1a2e;
+      border: 1px solid #2a2a4a;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+    .price-item .tl { font-size: 20px; font-weight: 700; color: #7b7bff; }
+    .price-item .rub { font-size: 15px; color: #ccc; margin-top: 4px; }
+
+    .contacts {
+      text-align: center;
+      padding: 40px 20px;
+      background: #1a1a2e;
+      border-top: 1px solid #2a2a4a;
+    }
+    .contacts h2 { font-size: 22px; margin-bottom: 16px; }
+    .contacts a {
+      display: inline-block;
+      color: #7b7bff;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 6px 0;
+    }
+    .contacts p { color: #999; font-size: 13px; margin-top: 20px; }
+
+    .policy {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      font-size: 13px;
+      color: #888;
+      line-height: 1.7;
+    }
+    .policy h3 { color: #aaa; font-size: 15px; margin-bottom: 10px; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #555;
+      border-top: 1px solid #2a2a4a;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>VeltixPSN</h1>
+  <span>Пополнение игровых аккаунтов</span>
+</header>
+
+<div class="hero">
+  <h2>Пополнение <span>PSN, Steam, Xbox</span></h2>
+  <p>Быстро, выгодно, автоматически — 24/7</p>
+  <a href="https://t.me/PSNFillBot">Пополнить в Telegram →</a>
+</div>
+
+<div class="features">
+  <div class="feature">
+    <div class="icon">⚡</div>
+    <h3>Автовыдача PSN</h3>
+    <p>Код приходит мгновенно после оплаты — без ожидания</p>
+  </div>
+  <div class="feature">
+    <div class="icon">💳</div>
+    <h3>Удобная оплата</h3>
+    <p>Карта, СБП, криптовалюта — любым удобным способом</p>
+  </div>
+  <div class="feature">
+    <div class="icon">🎮</div>
+    <h3>Steam, Xbox и другие</h3>
+    <p>Любые платформы и регионы — выдача за 10 минут</p>
+  </div>
+  <div class="feature">
+    <div class="icon">✅</div>
+    <h3>Работаем 24/7</h3>
+    <p>Поддержка и выдача без выходных и праздников</p>
+  </div>
+</div>
+
+<div class="prices">
+  <h2>Цены PSN Турция</h2>
+  <div class="price-grid">
+    <div class="price-item"><div class="tl">250 TL</div><div class="rub">750 ₽</div></div>
+    <div class="price-item"><div class="tl">500 TL</div><div class="rub">1 400 ₽</div></div>
+    <div class="price-item"><div class="tl">750 TL</div><div class="rub">2 000 ₽</div></div>
+    <div class="price-item"><div class="tl">1000 TL</div><div class="rub">2 500 ₽</div></div>
+    <div class="price-item"><div class="tl">1500 TL</div><div class="rub">3 700 ₽</div></div>
+    <div class="price-item"><div class="tl">2000 TL</div><div class="rub">4 800 ₽</div></div>
+    <div class="price-item"><div class="tl">3000 TL</div><div class="rub">7 000 ₽</div></div>
+    <div class="price-item"><div class="tl">5000 TL</div><div class="rub">11 500 ₽</div></div>
+  </div>
+</div>
+
+<div class="contacts">
+  <h2>Контакты</h2>
+  <a href="https://t.me/PSNFillBot">🤖 Telegram бот: @PSNFillBot</a><br>
+  <a href="https://t.me/psnfill">📢 Канал: @psnfill</a><br>
+  <a href="mailto:support@veltixpsn.store">📧 support@veltixpsn.store</a>
+  <p>ИП или физическое лицо · Вьетнам · Цифровые товары</p>
+</div>
+
+<div class="policy" id="agreement">
+  <h3>Пользовательское соглашение</h3>
+  <p>Используя сервис VeltixPSN, вы соглашаетесь со следующими условиями:</p>
+  <br>
+  <p><b>1. Предмет соглашения.</b> Магазин VeltixPSN (далее — Продавец) реализует цифровые товары: коды пополнения кошельков PSN (PlayStation Network), Steam, Xbox и других игровых платформ. Все товары предоставляются в электронном виде.</p>
+  <br>
+  <p><b>2. Оформление заказа.</b> Заказ оформляется через Telegram-бот @PSNFillBot. После оплаты покупатель получает цифровой код автоматически или в течение 10 минут через службу поддержки.</p>
+  <br>
+  <p><b>3. Оплата.</b> Оплата производится через платёжные системы, доступные в боте. Все цены указаны в российских рублях. Продавец вправе изменять цены без предварительного уведомления.</p>
+  <br>
+  <p><b>4. Возврат и обмен.</b> После передачи цифрового кода возврат не осуществляется, так как товар считается использованным. В случае технической неисправности кода — обратитесь в поддержку в течение 24 часов, мы заменим код или вернём средства.</p>
+  <br>
+  <p><b>5. Ответственность.</b> Продавец не несёт ответственности за действия третьих лиц, изменение условий платформ PSN/Steam/Xbox, а также за последствия неправильной активации кода покупателем.</p>
+  <br>
+  <p><b>6. Контакты.</b> По всем вопросам обращайтесь: <a href="https://t.me/PSNFillBot" style="color:#7b7bff">@PSNFillBot</a> или <a href="mailto:support@veltixpsn.store" style="color:#7b7bff">support@veltixpsn.store</a>. Время ответа — до 10 минут, работаем 24/7.</p>
+  <br>
+  <h3>Политика возврата</h3>
+  <p>Возврат средств возможен только в случае технической неисправности переданного кода, подтверждённой службой поддержки. Заявка на возврат принимается в течение 24 часов с момента получения кода. Для оформления возврата напишите в поддержку: @PSNFillBot.</p>
+</div>
+
+<footer>
+  © 2026 VeltixPSN · veltixpsn.store · Все права защищены
+</footer>
+
+</body>
+</html>
